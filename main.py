@@ -259,7 +259,7 @@ def main(chatin):
     
     # Print ollama response and what it said
     print(f"You: {chatin}")
-    print(f"{name}: {message}")
+    print(f"AI: {message}")
     
     return f"You: {chatin}\n${name}: ${message}"
 
