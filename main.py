@@ -252,7 +252,7 @@ async def get_chatin(chatText: str):
 
 # Main function to run the program
 def main(chatin):
-    #check_updates()
+    check_updates()
     chatin = "Guest:" + chatin
     
     # Get response from ollama
