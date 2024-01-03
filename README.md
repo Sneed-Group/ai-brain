@@ -2,6 +2,10 @@
 
 Codenamed "Project GLaDOS" after the character from the Portal franchise, The AI Brain Project is a Python program that demonstrates how to use ollama to upload your brain to the cloud with just a description of yourself. The program asks the user for input generates random actions every 5 seconds. Think of it as [HLE](https://en.wikipedia.org/wiki/UltraHLE) for [brain emulation/mind uploading](https://en.wikipedia.org/wiki/Mind_uploading).
 
+## NOTE
+
+ALWAYS GET THE LATEST INSTRUCTIONS [HERE!](https://github.com/The-AI-Brain/ai-brain)
+
 ## Installation
 
 To install the program, follow these steps:
