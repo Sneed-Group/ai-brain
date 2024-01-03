@@ -23,8 +23,8 @@ llm = Ollama(
 
 completeContext = ""
 # Define URLs for requirements.txt and main.py
-#REQS_URL = 'https://raw.githubusercontent.com/The-AI-Brain/ai-brain/main/requirements.txt'
-#MAIN_URL = 'https://raw.githubusercontent.com/The-AI-Brain/ai-brain/main/main.py'
+REQS_URL = 'https://raw.githubusercontent.com/The-AI-Brain/ai-brain/main/requirements.txt'
+MAIN_URL = 'https://raw.githubusercontent.com/The-AI-Brain/ai-brain/main/main.py'
 
 # Define paths for local requirements.txt and main.py files
 REQS_PATH = 'requirements.txt'
@@ -252,7 +252,6 @@ async def get_chatin(chatText: str):
 
 # Main function to run the program
 def main(chatin):
-    check_updates()
     chatin = "Guest:" + chatin
     
     # Get response from ollama
@@ -268,6 +267,7 @@ def main(chatin):
 
 def cli():
     while True:
+        check_updates()
         toChat = input("brain@localhost:~$ ")
         main(f"{toChat}")
 cli()
