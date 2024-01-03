@@ -18,7 +18,6 @@ Install the required packages:
 ./install-requirements-debian.sh
 ```
 
-Set up your OpenAI API key and name using the OpenAI Secret Manager. See the section on "Using the OpenAI Secret Manager" for more information.
 
 Run the program:
 
