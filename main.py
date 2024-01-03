@@ -251,15 +251,15 @@ async def get_chatin(chatText: str):
     return await main(chatText)
 
 # Main function to run the program
+# Main function to run the program
 def main(chatin):
     chatin = "Guest:" + chatin
-    
+    # Print ollama response and what it said
+    print(f"You: {chatin}")
+    print(f"AI:")
     # Get response from ollama
     message = llm(f"(Additional context for reply: {completeContext}), reply to this: {chatin}")
     
-    # Print ollama response and what it said
-    print(f"You: {chatin}")
-    print(f"AI: {message}")
     
     return f"You: {chatin}\n${name}: ${message}"
 
