@@ -4,7 +4,7 @@ Codenamed "Project GLaDOS" after the character from the Portal franchise, The AI
 
 ## NOTE
 
-ALWAYS GET THE LATEST INSTRUCTIONS [HERE!](https://github.com/The-AI-Brain/ai-brain)
+ALWAYS GET THE LATEST INSTRUCTIONS, DOCUMENTATION, AND LICENSING DETAILS [HERE!](https://github.com/The-AI-Brain/ai-brain)
 
 ## Installation
 
